@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8083.2"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Dialer_App_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="1" alignment="left" layout="vertical" spacing="3" id="aIO-dC-EFX">
+                            <items>
+                                <label width="1" alignment="center" text="Type Phone" textAlignment="center" id="Kh2-rx-NNd"/>
+                                <group width="1" height="0.20000000000000001" alignment="left" spacing="3" id="Taj-g8-t7K">
+                                    <items>
+                                        <button width="0.33400000000000002" height="1" alignment="left" verticalAlignment="center" title="1" id="D03-Mg-tgp">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                            <connections>
+                                                <action selector="onePressed" destination="AgC-eL-Hgc" id="Kw7-Xg-wQh"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33400000000000002" height="1" alignment="center" verticalAlignment="center" title="2" id="Jh3-Fd-CKc">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                            <connections>
+                                                <action selector="twoPressed" destination="AgC-eL-Hgc" id="Mc9-o6-V5N"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33400000000000002" height="1" alignment="right" verticalAlignment="center" title="3" id="Pi3-tv-gP6">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                            <connections>
+                                                <action selector="threePressed" destination="AgC-eL-Hgc" id="9N6-Yb-cnO"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.20000000000000001" alignment="left" spacing="3" id="NMH-lG-Siz">
+                                    <items>
+                                        <button width="0.33400000000000002" height="1" alignment="left" verticalAlignment="center" title="4" id="GxM-ys-erq">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                            <connections>
+                                                <action selector="fourPressed" destination="AgC-eL-Hgc" id="C5m-0c-Fyq"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33400000000000002" height="1" alignment="center" verticalAlignment="center" title="5" id="G2X-TA-drR">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                            <connections>
+                                                <action selector="fivePressed" destination="AgC-eL-Hgc" id="CUB-FR-hFp"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33400000000000002" height="1" alignment="right" verticalAlignment="center" title="6" id="7b8-Tl-oqL">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                            <connections>
+                                                <action selector="sixPressed" destination="AgC-eL-Hgc" id="0EZ-hi-Ya8"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.20000000000000001" alignment="left" spacing="3" id="cmI-fY-BFb">
+                                    <items>
+                                        <button width="0.33400000000000002" height="1" alignment="left" verticalAlignment="center" title="7" id="VJI-Ba-iYj">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                            <connections>
+                                                <action selector="sevenPressed" destination="AgC-eL-Hgc" id="aQE-WN-tgI"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33400000000000002" height="1" alignment="center" verticalAlignment="center" title="8" id="lse-aI-fxs">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                            <connections>
+                                                <action selector="eightPressed" destination="AgC-eL-Hgc" id="DxB-Gf-ojN"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33400000000000002" height="1" alignment="right" verticalAlignment="center" title="9" id="KAd-zl-jQ0">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                            <connections>
+                                                <action selector="ninePressed" destination="AgC-eL-Hgc" id="GPG-nR-bMS"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.20000000000000001" alignment="left" spacing="3" id="ciO-P6-Mc5">
+                                    <items>
+                                        <button alignment="left" verticalAlignment="center" id="IdK-o1-zYa">
+                                            <group key="contentGroup" width="1" height="1" alignment="left" id="cOk-FN-eCf">
+                                                <items>
+                                                    <imageView width="1" height="1" alignment="left" image="call" contentMode="redraw" id="TPJ-i3-ibn"/>
+                                                </items>
+                                            </group>
+                                            <connections>
+                                                <action selector="dialPressed" destination="AgC-eL-Hgc" id="lat-Jz-2Zy"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33400000000000002" height="1" alignment="center" verticalAlignment="center" title="0" id="ysk-8I-AcJ">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                            <connections>
+                                                <action selector="zeroPressed" destination="AgC-eL-Hgc" id="PYt-qs-sSS"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33400000000000002" height="1" alignment="right" verticalAlignment="center" title="X" id="NNG-eo-K73">
+                                            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="20"/>
+                                            <connections>
+                                                <action selector="clearPressed" destination="AgC-eL-Hgc" id="3r9-Qw-0zo"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="phoneNumberLabel" destination="Kh2-rx-NNd" id="Pbh-zt-cbu"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="170" y="439"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,992 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E852D3B71B737F9F00838532 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E852D3B51B737F9F00838532 /* Interface.storyboard */; };
+		E852D3B91B737F9F00838532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E852D3B81B737F9F00838532 /* Assets.xcassets */; };
+		E852D3C01B737F9F00838532 /* Caller Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E852D3BF1B737F9F00838532 /* Caller Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E852D3C51B737F9F00838532 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E852D3C41B737F9F00838532 /* InterfaceController.swift */; };
+		E852D3C71B737F9F00838532 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E852D3C61B737F9F00838532 /* ExtensionDelegate.swift */; };
+		E852D3C91B737F9F00838532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E852D3C81B737F9F00838532 /* Assets.xcassets */; };
+		E852D3CD1B737F9F00838532 /* Caller.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E852D3B31B737F9F00838532 /* Caller.app */; };
+		E852D3D71B73800700838532 /* CallerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E852D3D61B73800700838532 /* CallerInterfaceController.swift */; };
+		E883B1CC1B72D662001B966B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883B1CB1B72D662001B966B /* AppDelegate.swift */; };
+		E883B1CF1B72D662001B966B /* Dialer_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E883B1CD1B72D662001B966B /* Dialer_App.xcdatamodeld */; };
+		E883B1D11B72D662001B966B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883B1D01B72D662001B966B /* ViewController.swift */; };
+		E883B1D41B72D662001B966B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E883B1D21B72D662001B966B /* Main.storyboard */; };
+		E883B1D61B72D662001B966B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E883B1D51B72D662001B966B /* Images.xcassets */; };
+		E883B1D91B72D662001B966B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E883B1D71B72D662001B966B /* LaunchScreen.xib */; };
+		E883B1E51B72D662001B966B /* Dialer_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883B1E41B72D662001B966B /* Dialer_AppTests.swift */; };
+		E883B1F71B72D680001B966B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883B1F61B72D680001B966B /* InterfaceController.swift */; };
+		E883B1F91B72D680001B966B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E883B1F81B72D680001B966B /* Images.xcassets */; };
+		E883B1FD1B72D680001B966B /* Dialer App WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = E883B1FC1B72D680001B966B /* Dialer App WatchKit App.app */; };
+		E883B2051B72D680001B966B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E883B2031B72D680001B966B /* Interface.storyboard */; };
+		E883B2071B72D680001B966B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E883B2061B72D680001B966B /* Images.xcassets */; };
+		E883B20A1B72D680001B966B /* Dialer App WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E883B1F21B72D67F001B966B /* Dialer App WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E8DB73A51B7505C900477F08 /* OldTimesInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DB73A41B7505C900477F08 /* OldTimesInterfaceController.swift */; };
+		E8DB73A71B75208A00477F08 /* SettingsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DB73A61B75208A00477F08 /* SettingsInterfaceController.swift */; };
+		E8DB73AA1B75265500477F08 /* callerFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DB73A91B75265500477F08 /* callerFunctions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E852D3C11B737F9F00838532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E883B1BE1B72D662001B966B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E852D3BE1B737F9F00838532;
+			remoteInfo = "Caller Extension";
+		};
+		E852D3CB1B737F9F00838532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E883B1BE1B72D662001B966B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E852D3B21B737F9F00838532;
+			remoteInfo = Caller;
+		};
+		E883B1DF1B72D662001B966B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E883B1BE1B72D662001B966B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E883B1C51B72D662001B966B;
+			remoteInfo = "Dialer App";
+		};
+		E883B1FE1B72D680001B966B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E883B1BE1B72D662001B966B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E883B1FB1B72D680001B966B;
+			remoteInfo = "Dialer App WatchKit App";
+		};
+		E883B2081B72D680001B966B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E883B1BE1B72D662001B966B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E883B1F11B72D67F001B966B;
+			remoteInfo = "Dialer App WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E852D3D11B737F9F00838532 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E852D3C01B737F9F00838532 /* Caller Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E852D3D51B737F9F00838532 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E852D3CD1B737F9F00838532 /* Caller.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883B2111B72D680001B966B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E883B20A1B72D680001B966B /* Dialer App WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E852D3B31B737F9F00838532 /* Caller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E852D3B61B737F9F00838532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E852D3B81B737F9F00838532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E852D3BA1B737F9F00838532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E852D3BF1B737F9F00838532 /* Caller Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Caller Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E852D3C41B737F9F00838532 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E852D3C61B737F9F00838532 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E852D3C81B737F9F00838532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E852D3CA1B737F9F00838532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E852D3D61B73800700838532 /* CallerInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallerInterfaceController.swift; sourceTree = "<group>"; };
+		E883B1C61B72D662001B966B /* Dialer App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dialer App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E883B1CA1B72D662001B966B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E883B1CB1B72D662001B966B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E883B1CE1B72D662001B966B /* Dialer_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dialer_App.xcdatamodel; sourceTree = "<group>"; };
+		E883B1D01B72D662001B966B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E883B1D31B72D662001B966B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E883B1D51B72D662001B966B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E883B1D81B72D662001B966B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E883B1DE1B72D662001B966B /* Dialer AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dialer AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E883B1E31B72D662001B966B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E883B1E41B72D662001B966B /* Dialer_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialer_AppTests.swift; sourceTree = "<group>"; };
+		E883B1F21B72D67F001B966B /* Dialer App WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dialer App WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E883B1F51B72D67F001B966B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E883B1F61B72D680001B966B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E883B1F81B72D680001B966B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E883B1FC1B72D680001B966B /* Dialer App WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dialer App WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E883B2021B72D680001B966B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E883B2041B72D680001B966B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E883B2061B72D680001B966B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E8DB73A41B7505C900477F08 /* OldTimesInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OldTimesInterfaceController.swift; sourceTree = "<group>"; };
+		E8DB73A61B75208A00477F08 /* SettingsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsInterfaceController.swift; sourceTree = "<group>"; };
+		E8DB73A91B75265500477F08 /* callerFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = callerFunctions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E852D3BC1B737F9F00838532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883B1C31B72D662001B966B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883B1DB1B72D662001B966B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883B1EF1B72D67F001B966B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E852D3B41B737F9F00838532 /* Caller */ = {
+			isa = PBXGroup;
+			children = (
+				E852D3B51B737F9F00838532 /* Interface.storyboard */,
+				E852D3B81B737F9F00838532 /* Assets.xcassets */,
+				E852D3BA1B737F9F00838532 /* Info.plist */,
+			);
+			path = Caller;
+			sourceTree = "<group>";
+		};
+		E852D3C31B737F9F00838532 /* Caller Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB73A81B7523FE00477F08 /* Custom Interfaces */,
+				E852D3C41B737F9F00838532 /* InterfaceController.swift */,
+				E852D3C61B737F9F00838532 /* ExtensionDelegate.swift */,
+				E852D3C81B737F9F00838532 /* Assets.xcassets */,
+				E852D3CA1B737F9F00838532 /* Info.plist */,
+			);
+			path = "Caller Extension";
+			sourceTree = "<group>";
+		};
+		E883B1BD1B72D662001B966B = {
+			isa = PBXGroup;
+			children = (
+				E883B1C81B72D662001B966B /* Dialer App */,
+				E883B1E11B72D662001B966B /* Dialer AppTests */,
+				E883B1F31B72D67F001B966B /* Dialer App WatchKit Extension */,
+				E883B2001B72D680001B966B /* Dialer App WatchKit App */,
+				E852D3B41B737F9F00838532 /* Caller */,
+				E852D3C31B737F9F00838532 /* Caller Extension */,
+				E883B1C71B72D662001B966B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E883B1C71B72D662001B966B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E883B1C61B72D662001B966B /* Dialer App.app */,
+				E883B1DE1B72D662001B966B /* Dialer AppTests.xctest */,
+				E883B1F21B72D67F001B966B /* Dialer App WatchKit Extension.appex */,
+				E883B1FC1B72D680001B966B /* Dialer App WatchKit App.app */,
+				E852D3B31B737F9F00838532 /* Caller.app */,
+				E852D3BF1B737F9F00838532 /* Caller Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E883B1C81B72D662001B966B /* Dialer App */ = {
+			isa = PBXGroup;
+			children = (
+				E883B1CB1B72D662001B966B /* AppDelegate.swift */,
+				E883B1D01B72D662001B966B /* ViewController.swift */,
+				E883B1D21B72D662001B966B /* Main.storyboard */,
+				E883B1D51B72D662001B966B /* Images.xcassets */,
+				E883B1D71B72D662001B966B /* LaunchScreen.xib */,
+				E883B1CD1B72D662001B966B /* Dialer_App.xcdatamodeld */,
+				E883B1C91B72D662001B966B /* Supporting Files */,
+			);
+			path = "Dialer App";
+			sourceTree = "<group>";
+		};
+		E883B1C91B72D662001B966B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E883B1CA1B72D662001B966B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E883B1E11B72D662001B966B /* Dialer AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E883B1E41B72D662001B966B /* Dialer_AppTests.swift */,
+				E883B1E21B72D662001B966B /* Supporting Files */,
+			);
+			path = "Dialer AppTests";
+			sourceTree = "<group>";
+		};
+		E883B1E21B72D662001B966B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E883B1E31B72D662001B966B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E883B1F31B72D67F001B966B /* Dialer App WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E883B1F61B72D680001B966B /* InterfaceController.swift */,
+				E883B1F81B72D680001B966B /* Images.xcassets */,
+				E883B1F41B72D67F001B966B /* Supporting Files */,
+			);
+			path = "Dialer App WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		E883B1F41B72D67F001B966B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E883B1F51B72D67F001B966B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E883B2001B72D680001B966B /* Dialer App WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E883B2031B72D680001B966B /* Interface.storyboard */,
+				E883B2061B72D680001B966B /* Images.xcassets */,
+				E883B2011B72D680001B966B /* Supporting Files */,
+			);
+			path = "Dialer App WatchKit App";
+			sourceTree = "<group>";
+		};
+		E883B2011B72D680001B966B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E883B2021B72D680001B966B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8DB73A81B7523FE00477F08 /* Custom Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB73A61B75208A00477F08 /* SettingsInterfaceController.swift */,
+				E8DB73A41B7505C900477F08 /* OldTimesInterfaceController.swift */,
+				E852D3D61B73800700838532 /* CallerInterfaceController.swift */,
+				E8DB73A91B75265500477F08 /* callerFunctions.swift */,
+			);
+			name = "Custom Interfaces";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E852D3B21B737F9F00838532 /* Caller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E852D3D21B737F9F00838532 /* Build configuration list for PBXNativeTarget "Caller" */;
+			buildPhases = (
+				E852D3B11B737F9F00838532 /* Resources */,
+				E852D3D11B737F9F00838532 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E852D3C21B737F9F00838532 /* PBXTargetDependency */,
+			);
+			name = Caller;
+			productName = Caller;
+			productReference = E852D3B31B737F9F00838532 /* Caller.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E852D3BE1B737F9F00838532 /* Caller Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E852D3CE1B737F9F00838532 /* Build configuration list for PBXNativeTarget "Caller Extension" */;
+			buildPhases = (
+				E852D3BB1B737F9F00838532 /* Sources */,
+				E852D3BC1B737F9F00838532 /* Frameworks */,
+				E852D3BD1B737F9F00838532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Caller Extension";
+			productName = "Caller Extension";
+			productReference = E852D3BF1B737F9F00838532 /* Caller Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		E883B1C51B72D662001B966B /* Dialer App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E883B1E81B72D662001B966B /* Build configuration list for PBXNativeTarget "Dialer App" */;
+			buildPhases = (
+				E883B1C21B72D662001B966B /* Sources */,
+				E883B1C31B72D662001B966B /* Frameworks */,
+				E883B1C41B72D662001B966B /* Resources */,
+				E883B2111B72D680001B966B /* Embed App Extensions */,
+				E852D3D51B737F9F00838532 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E883B2091B72D680001B966B /* PBXTargetDependency */,
+				E852D3CC1B737F9F00838532 /* PBXTargetDependency */,
+			);
+			name = "Dialer App";
+			productName = "Dialer App";
+			productReference = E883B1C61B72D662001B966B /* Dialer App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E883B1DD1B72D662001B966B /* Dialer AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E883B1EB1B72D662001B966B /* Build configuration list for PBXNativeTarget "Dialer AppTests" */;
+			buildPhases = (
+				E883B1DA1B72D662001B966B /* Sources */,
+				E883B1DB1B72D662001B966B /* Frameworks */,
+				E883B1DC1B72D662001B966B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E883B1E01B72D662001B966B /* PBXTargetDependency */,
+			);
+			name = "Dialer AppTests";
+			productName = "Dialer AppTests";
+			productReference = E883B1DE1B72D662001B966B /* Dialer AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E883B1F11B72D67F001B966B /* Dialer App WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E883B20E1B72D680001B966B /* Build configuration list for PBXNativeTarget "Dialer App WatchKit Extension" */;
+			buildPhases = (
+				E883B1EE1B72D67F001B966B /* Sources */,
+				E883B1EF1B72D67F001B966B /* Frameworks */,
+				E883B1F01B72D67F001B966B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E883B1FF1B72D680001B966B /* PBXTargetDependency */,
+			);
+			name = "Dialer App WatchKit Extension";
+			productName = "Dialer App WatchKit Extension";
+			productReference = E883B1F21B72D67F001B966B /* Dialer App WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		E883B1FB1B72D680001B966B /* Dialer App WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E883B20B1B72D680001B966B /* Build configuration list for PBXNativeTarget "Dialer App WatchKit App" */;
+			buildPhases = (
+				E883B1FA1B72D680001B966B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dialer App WatchKit App";
+			productName = "Dialer App WatchKit App";
+			productReference = E883B1FC1B72D680001B966B /* Dialer App WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E883B1BE1B72D662001B966B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mikhail Amshei";
+				TargetAttributes = {
+					E852D3B21B737F9F00838532 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					E852D3BE1B737F9F00838532 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					E883B1C51B72D662001B966B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E883B1DD1B72D662001B966B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E883B1C51B72D662001B966B;
+					};
+					E883B1F11B72D67F001B966B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E883B1FB1B72D680001B966B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = E883B1C11B72D662001B966B /* Build configuration list for PBXProject "Dialer App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E883B1BD1B72D662001B966B;
+			productRefGroup = E883B1C71B72D662001B966B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E883B1C51B72D662001B966B /* Dialer App */,
+				E883B1DD1B72D662001B966B /* Dialer AppTests */,
+				E883B1F11B72D67F001B966B /* Dialer App WatchKit Extension */,
+				E883B1FB1B72D680001B966B /* Dialer App WatchKit App */,
+				E852D3B21B737F9F00838532 /* Caller */,
+				E852D3BE1B737F9F00838532 /* Caller Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E852D3B11B737F9F00838532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E852D3B91B737F9F00838532 /* Assets.xcassets in Resources */,
+				E852D3B71B737F9F00838532 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E852D3BD1B737F9F00838532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E852D3C91B737F9F00838532 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883B1C41B72D662001B966B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E883B1D41B72D662001B966B /* Main.storyboard in Resources */,
+				E883B1D91B72D662001B966B /* LaunchScreen.xib in Resources */,
+				E883B1D61B72D662001B966B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883B1DC1B72D662001B966B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883B1F01B72D67F001B966B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E883B1FD1B72D680001B966B /* Dialer App WatchKit App.app in Resources */,
+				E883B1F91B72D680001B966B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883B1FA1B72D680001B966B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E883B2051B72D680001B966B /* Interface.storyboard in Resources */,
+				E883B2071B72D680001B966B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E852D3BB1B737F9F00838532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E852D3C71B737F9F00838532 /* ExtensionDelegate.swift in Sources */,
+				E8DB73A71B75208A00477F08 /* SettingsInterfaceController.swift in Sources */,
+				E852D3C51B737F9F00838532 /* InterfaceController.swift in Sources */,
+				E8DB73A51B7505C900477F08 /* OldTimesInterfaceController.swift in Sources */,
+				E8DB73AA1B75265500477F08 /* callerFunctions.swift in Sources */,
+				E852D3D71B73800700838532 /* CallerInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883B1C21B72D662001B966B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E883B1D11B72D662001B966B /* ViewController.swift in Sources */,
+				E883B1CF1B72D662001B966B /* Dialer_App.xcdatamodeld in Sources */,
+				E883B1CC1B72D662001B966B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883B1DA1B72D662001B966B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E883B1E51B72D662001B966B /* Dialer_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883B1EE1B72D67F001B966B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E883B1F71B72D680001B966B /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E852D3C21B737F9F00838532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E852D3BE1B737F9F00838532 /* Caller Extension */;
+			targetProxy = E852D3C11B737F9F00838532 /* PBXContainerItemProxy */;
+		};
+		E852D3CC1B737F9F00838532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E852D3B21B737F9F00838532 /* Caller */;
+			targetProxy = E852D3CB1B737F9F00838532 /* PBXContainerItemProxy */;
+		};
+		E883B1E01B72D662001B966B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E883B1C51B72D662001B966B /* Dialer App */;
+			targetProxy = E883B1DF1B72D662001B966B /* PBXContainerItemProxy */;
+		};
+		E883B1FF1B72D680001B966B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E883B1FB1B72D680001B966B /* Dialer App WatchKit App */;
+			targetProxy = E883B1FE1B72D680001B966B /* PBXContainerItemProxy */;
+		};
+		E883B2091B72D680001B966B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E883B1F11B72D67F001B966B /* Dialer App WatchKit Extension */;
+			targetProxy = E883B2081B72D680001B966B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E852D3B51B737F9F00838532 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E852D3B61B737F9F00838532 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		E883B1D21B72D662001B966B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E883B1D31B72D662001B966B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E883B1D71B72D662001B966B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E883B1D81B72D662001B966B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		E883B2031B72D680001B966B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E883B2041B72D680001B966B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E852D3CF1B737F9F00838532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Caller Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esellacademy.Dialer-App.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		E852D3D01B737F9F00838532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Caller Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esellacademy.Dialer-App.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		E852D3D31B737F9F00838532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_TESTABILITY = YES;
+				IBSC_MODULE = Caller_Extension;
+				INFOPLIST_FILE = Caller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esellacademy.Dialer-App.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		E852D3D41B737F9F00838532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Caller_Extension;
+				INFOPLIST_FILE = Caller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esellacademy.Dialer-App.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		E883B1E61B72D662001B966B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E883B1E71B72D662001B966B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E883B1E91B72D662001B966B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dialer App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esellacademy.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E883B1EA1B72D662001B966B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dialer App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esellacademy.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E883B1EC1B72D662001B966B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dialer AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esellacademy.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dialer App.app/Dialer App";
+			};
+			name = Debug;
+		};
+		E883B1ED1B72D662001B966B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dialer AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esellacademy.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dialer App.app/Dialer App";
+			};
+			name = Release;
+		};
+		E883B20C1B72D680001B966B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Dialer_App_WatchKit_Extension;
+				INFOPLIST_FILE = "Dialer App WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esellacademy.Dialer-App.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		E883B20D1B72D680001B966B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				IBSC_MODULE = Dialer_App_WatchKit_Extension;
+				INFOPLIST_FILE = "Dialer App WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esellacademy.Dialer-App.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		E883B20F1B72D680001B966B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dialer App WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esellacademy.Dialer-App.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E883B2101B72D680001B966B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dialer App WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esellacademy.Dialer-App.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E852D3CE1B737F9F00838532 /* Build configuration list for PBXNativeTarget "Caller Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E852D3CF1B737F9F00838532 /* Debug */,
+				E852D3D01B737F9F00838532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E852D3D21B737F9F00838532 /* Build configuration list for PBXNativeTarget "Caller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E852D3D31B737F9F00838532 /* Debug */,
+				E852D3D41B737F9F00838532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E883B1C11B72D662001B966B /* Build configuration list for PBXProject "Dialer App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E883B1E61B72D662001B966B /* Debug */,
+				E883B1E71B72D662001B966B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E883B1E81B72D662001B966B /* Build configuration list for PBXNativeTarget "Dialer App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E883B1E91B72D662001B966B /* Debug */,
+				E883B1EA1B72D662001B966B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E883B1EB1B72D662001B966B /* Build configuration list for PBXNativeTarget "Dialer AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E883B1EC1B72D662001B966B /* Debug */,
+				E883B1ED1B72D662001B966B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E883B20B1B72D680001B966B /* Build configuration list for PBXNativeTarget "Dialer App WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E883B20C1B72D680001B966B /* Debug */,
+				E883B20D1B72D680001B966B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E883B20E1B72D680001B966B /* Build configuration list for PBXNativeTarget "Dialer App WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E883B20F1B72D680001B966B /* Debug */,
+				E883B2101B72D680001B966B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E883B1CD1B72D662001B966B /* Dialer_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E883B1CE1B72D662001B966B /* Dialer_App.xcdatamodel */,
+			);
+			currentVersion = E883B1CE1B72D662001B966B /* Dialer_App.xcdatamodel */;
+			path = Dialer_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E883B1BE1B72D662001B966B /* Project object */;
+}
